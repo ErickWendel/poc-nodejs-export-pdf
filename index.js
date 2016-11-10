@@ -1,7 +1,5 @@
-var pdf = require('pdfkit');
-var fs = require('fs');
-var data = require('./data');
-var myDoc = new pdf;
+ var fs = require('fs');
+var data = require('./data'); 
 var Report = require('fluentreports').Report;
 
 
